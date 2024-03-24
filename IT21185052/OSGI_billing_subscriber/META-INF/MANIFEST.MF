@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGI_billing_subscriber
+Bundle-SymbolicName: OSGI_billing_subscriber
+Bundle-Activator: osgi_billing_subscriber.BillingActivator
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Automatic-Module-Name: OSGI_billing_subscriber
+Bundle-ActivationPolicy: lazy 
+Import-Package: org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker;version="1.5.3",
+ osgi_billing_publisher
